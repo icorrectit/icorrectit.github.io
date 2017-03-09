@@ -157,7 +157,6 @@ header ul a {
 }
 
 strong {
-  color:#222;
   font-weight:700;
 }
 
@@ -193,39 +192,39 @@ section h2 {
     font-size: 2em;
 }
 
-section ul.ex {
+section.post ul {
   margin: 0 0 22px 0;
   padding: 0;
 }
 
-section ul.ex li {
+section.post li {
   list-style: none;
 }
 
-section dl.ex dt, section dl.ex dd, section ul.ex li {
+section.post dt, section.post dd, section.post li {
   padding:6px 12px;
   margin: 0 0 6px 0;
   border-radius:5px;
   font-weight: normal;
 }
 
-section dl.ex dt {
+section.post dt {
   margin-top: 15px;
 }
 
-section dl.ex dt, section dl.ex dd.correct, section ul.ex li {
+section.post dt, section.post dd.correct, section.post li {
   background: #DFF0D8;
   border:1px solid #D6E9C6;
   color: #468847;
 }
 
-section .ex .incorrect {
+section.post .incorrect {
   background: #F2DEDE;
   border:1px solid #EED3D7;
   color: #B94A48;
 }
 
-section dl.ex dd {
+section.post dd {
   background: #D9EDF7;
   border:1px solid #BCE8F1;
   color: #3A87AD;
