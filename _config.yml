@@ -4,3 +4,8 @@ description: The Internet needs some grammatical guidance. I'm here to help.
 host: 0.0.0.0
 permalink: /:title
 markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

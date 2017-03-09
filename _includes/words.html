@@ -1,0 +1,9 @@
+{% if page.words %}
+<dl>
+  {% for word in page.words %}
+  <dt>{{ word.word | smartify }}</dt>
+  <dd class="pro">{{ word.pro | smartify }} <em class="ipa">/{{ word.ipa }}/</em></dd>
+  <dd class="desc"><em class="type">{{ word.type }}</em> {{ word.desc }}</dd>
+  {% endfor %}
+</dl>
+{% endif %}
