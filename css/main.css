@@ -192,46 +192,42 @@ section h2 {
     font-size: 2em;
 }
 
-section.post ul {
+ul.example {
   margin: 0 0 22px 0;
   padding: 0;
 }
 
-section.post li {
+.example li {
   list-style: none;
 }
 
-section.post dt, section.post dd, section.post li {
-  padding:6px 12px;
+.example dt, .example dd, .example li {
+  padding: 6px 12px;
   margin: 0 0 6px 0;
-  border-radius:5px;
+  border-radius: 5px;
   font-weight: normal;
 }
 
-section.post dt {
+.example dt {
   margin-top: 15px;
 }
 
-section.post dt, section.post dd.correct, section.post li {
+.example dt, .example .correct, .example li {
   background: #DFF0D8;
-  border:1px solid #D6E9C6;
+  border: 1px solid #D6E9C6;
   color: #468847;
 }
 
-section.post .incorrect {
+.example .incorrect {
   background: #F2DEDE;
   border:1px solid #EED3D7;
   color: #B94A48;
 }
 
-section.post dd {
+.example dd {
   background: #D9EDF7;
   border:1px solid #BCE8F1;
   color: #3A87AD;
-}
-
-small {
-  font-size:11px;
 }
 
 hr {
