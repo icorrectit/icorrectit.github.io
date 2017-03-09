@@ -1,6 +1,10 @@
 ---
-permalink: /whoops
+permalink: /faq
 ---
+
+## Can I contribute to the list?
+
+Of course! You can add new pages --- or modify existing ones --- via the [GitHub repository](https://github.com/icorrectit/icorrectit.github.io).
 
 ## Hey! That wasn't an error!
 
